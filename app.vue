@@ -67,7 +67,7 @@ export default defineComponent({
     },
   },
   async mounted() {
-    window.__LD_ASSET_PATH__ = window.location.origin
+    window.__LD_ASSET_PATH__ = '/'
     const { defineCustomElements } = await import(
       '@emdgroup-liquid/liquid/dist/loader'
     )
