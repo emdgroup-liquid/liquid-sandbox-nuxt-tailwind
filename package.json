@@ -8,6 +8,7 @@
   "author": "User Experience Strategy & Design unit, part of EMD Group <liquid@emdgroup.com> (https://github.com/emdgroup-liquid)",
   "license": "UNLICENSED",
   "scripts": {
+    "start": "nuxt build && nuxt preview",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
