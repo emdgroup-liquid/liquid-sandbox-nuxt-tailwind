@@ -91,3 +91,9 @@ export default defineComponent({
     <footer-item />
   </div>
 </template>
+
+<style>
+body {
+  min-width: 20rem;
+}
+</style>
