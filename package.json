@@ -13,7 +13,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "patch-package && nuxt prepare"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@emdgroup-liquid/liquid": "^4.2.0",
@@ -28,7 +28,6 @@
     "eslint": "^8.26.0",
     "eslint-plugin-vue": "^9.3.0",
     "nuxt": "3.0.0",
-    "patch-package": "^6.5.1",
     "prettier": "^2.7.1",
     "rollup-plugin-copy": "^3.4.0"
   },
